@@ -49,7 +49,7 @@ public class Zadatak9 {
     }
 
     @AfterMethod
-    public void deleteCookies() {
+    public void deleteAllCookies() {
         driver.manage().deleteAllCookies();
         driver.navigate().refresh();
         WebElement emptyCart = driver.findElement(By.id("sc-empty-cart"));
