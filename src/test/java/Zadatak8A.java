@@ -84,16 +84,4 @@ public class Zadatak8A {
         driver.quit();
     }
 
-    // BeforeClass
-
-    // BeforeMethod
-    // Test1
-    // AfterMethod
-
-    // BeforeMethod
-    // Test2
-    // AfterMethod
-
-    // AfterClass
-
 }
